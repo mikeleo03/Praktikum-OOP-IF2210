@@ -4,16 +4,17 @@
 #include <iostream>
 
 class A {
-public:
-    A(char d);
-    A(const A&);
-    virtual ~A();
+    public:
+        A(char d);
+        A(const A&);
+        virtual ~A();
 
-    A& operator=(const A&);
+        A& operator=(const A&);
 
-    void show();
-private:
-    char data;
+        void show();
+    
+    private:
+        char data;
 };
 
 #endif
